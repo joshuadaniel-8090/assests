@@ -1,2 +1,2 @@
-xmrig.exe -o stratum+ssl://rx.unmineable.com:443 -a rx -k -u kaspa:qqqsapk0rt9uxt2plrnehw0hrdkzyy8jknvm6hlyu06rys5dgj757ydk6qav7.test_josh#zs5p-y7uy -p x
+xmrig.exe -o stratum+ssl://rx.unmineable.com:443 -a rx -k -u kaspa:qrpapl9zlg3wk6p4rmlafwm7cd7c76nj4dzevg6mgz8d6ldr45s0jywqlufzh.test_josh#h2rv-53k6 -p x
 pause 
